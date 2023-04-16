@@ -18,11 +18,12 @@ const [isModalOpen, setIsModalOpen] = useState(false);
     // define toggleModal for onClick in image
     const toggleModal = (image, i) => {
         setCurrentPhoto({...image, index: i})
-        setIsModalOpen(true);
+        setIsModalOpen(!isModalOpen);
     }
     return (
         <div>
-            {isModalOpen && <Modal currentPhoto={currentPhoto}/>}
+            {/* allows modal to open when clicked and closed when button is clicked */}
+            {isModalOpen && (<Modal currentPhoto={currentPhoto} onClose={toggleModal}/>)}
             <div className='flex-row'>
                 {currentPhotos.map((image, i) => (
                     <img
