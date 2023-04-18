@@ -18,27 +18,25 @@ function Nav(props) {
         <header className='flex-row px-1'>
             <h2>
                 <a href='/'>
-                    <span role='img' aria-label='camera'>📸</span>Portfolio
+                    <span role='img' aria-label='camera'></span>Portfolio
                 </a>
             </h2>
             <nav>
                 <ul className='flex-row'>
                     {/* About me */}
                     <li className='mx-2'>
-                        <a href='#about' onClick={() => setContactSelected(false)}>
-                            About me
-                        </a>
+                        <p>
+                            <a href='#about' onClick={() => setContactSelected(false)}>About Me</a>
+                        </p>
                     </li>
-{/* Contact Form */}
-                    <li className={`mx-2 ${
-                        contactSelected && 'navActive'}`}>
+                    {/* Contact Form */}
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() => setContactSelected(true)}>Contact</span>
                     </li>
                     {/* Categories */}
                     {categories.map((category) => (
                         <li
-                            className={`mx-1 ${
-                                currentCategory.name === category.name && 'navActive'
+                            className={`mx-1 ${currentCategory.name === category.name && 'navActive'
                                 }`}
                             key={category.name}>
                             <span

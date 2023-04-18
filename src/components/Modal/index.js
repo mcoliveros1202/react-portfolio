@@ -8,12 +8,12 @@ function Modal({onClose, currentPhoto }) {
     return (
         // modal markup
         <div className='modalBackdrop'>
-            <div className='modealContainer'>
+            <div className='modalContainer'>
                 <div className='modalTitle'>{name}</div>
                 <img 
-                src={require(`../../assets/small/${category}/${index}.jpg`)}
+                src={require(`../../assets/large/${category}/${index}.jpg`)}
                 alt='current category' />
-                <p> {description}</p>
+                <p className='modalDescription'> {description}</p>
                 <button onClick={onClose} type='button'>Close this modal</button>
             </div>
         </div>

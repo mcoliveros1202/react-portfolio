@@ -7,7 +7,6 @@ import './App.css';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
-  
   const [categories] = useState([
     { name: 'group projects', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'JavaScript', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
