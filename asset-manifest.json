@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f56e50d1.css",
-    "main.js": "/react-portfolio/static/js/main.eac3f507.js",
+    "main.css": "/react-portfolio/static/css/main.464c9727.css",
+    "main.js": "/react-portfolio/static/js/main.d01383c6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/byron-johnson-pj1jt4vBGZY-unsplash.jpg": "/react-portfolio/static/media/byron-johnson-pj1jt4vBGZY-unsplash.1367d0e9c753ee19912d.jpg",
     "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.19177329ca677b6eccf7.jpg",
-    "static/media/0.jpg": "/react-portfolio/static/media/0.533ae8f6f0bf6c415f11.jpg",
-    "static/media/1.jpg": "/react-portfolio/static/media/1.668ea4e0cb92db99771f.jpg",
+    "static/media/0.jpg": "/react-portfolio/static/media/0.0b3139146af8ca19a8c2.jpg",
+    "static/media/pet-portal.jpg": "/react-portfolio/static/media/pet-portal.8ea7ac9ba24b7c676d0f.jpg",
+    "static/media/1.jpg": "/react-portfolio/static/media/1.ba0dd5f1bbcc9777fa93.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.f56e50d1.css.map": "/react-portfolio/static/css/main.f56e50d1.css.map",
-    "main.eac3f507.js.map": "/react-portfolio/static/js/main.eac3f507.js.map",
+    "main.464c9727.css.map": "/react-portfolio/static/css/main.464c9727.css.map",
+    "main.d01383c6.js.map": "/react-portfolio/static/js/main.d01383c6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f56e50d1.css",
-    "static/js/main.eac3f507.js"
+    "static/css/main.464c9727.css",
+    "static/js/main.d01383c6.js"
   ]
 }
